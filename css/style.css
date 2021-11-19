@@ -1,0 +1,28 @@
+.navBar {
+    display: flex;
+    
+    background-color: #201B19;
+}
+.left a {
+    color: #BEAE9C;
+    font-family: 'prata', serif;
+}
+
+.right a {
+    color: #BEAE9C;
+    font-family: 'prata', serif;
+}
+.left, .logo, .right {
+    background-color: #201B19;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footContent {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #201B19;
+  height: 100px;
+  }
