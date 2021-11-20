@@ -1,8 +1,18 @@
-.navBar {
+.navbar {
     display: flex;
-    
+    width: 100%;
+    height: auto;
     background-color: #201B19;
 }
+.left, .right {
+    width: 40%;
+    padding: 20px;
+}
+.logo {
+    width: 20%;
+    padding: 20px;
+}
+
 .left a {
     color: #BEAE9C;
     font-family: 'prata', serif;
@@ -14,15 +24,77 @@
 }
 .left, .logo, .right {
     background-color: #201B19;
-    height: 50px;
+    height: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: top;
   }
-  .footContent {
+  
+  .heroImg {
     display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #201B19;
-  height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    fill: 100%;
+    position: static;
+    width: 100%;
+    height: 583px;
+    left: 0px;
+    top: 93px;
+    
+    background: linear-gradient(200.68deg, #201B19 3.23%, #201B19 51.14%, #BEAE9C 64.78%);
+    
+  }
+  .heroImg h1 {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    
+    color: #76C1B8;
+    
+  }
+  #liLogo, #contactLogo {
+      justify-content: center;
+      align-items: flex-end;
+  }
+  footer h1 {
+    font-family: Libre Baskerville;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    color: #76C1B8;
+  }
+  #copyright h4 {
+    font-family: 'prata', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 60px;
+    color: #BFAE9D;
+
+  }
+  .content {
+      padding: 40px;
+  }
+  footer {
+      display: flex;
+      align-items: center;
+      background-color: #201B19;
+  }
+  .footLogo {
+     
+      justify-content: center;
+  }
+  #liLogo {
+      float: left;
+  }
+  #contactLogo {
+      float: right;
+  }
+  #copyright {
+      align-items: flex-end;
   }
