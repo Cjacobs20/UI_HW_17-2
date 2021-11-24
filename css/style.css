@@ -12,6 +12,9 @@
     width: 20%;
     padding: 20px;
 }
+.logo :hover {
+    transform: scale(2);
+}
 
 .left a {
     color: #BEAE9C;
@@ -23,7 +26,6 @@
     font-family: 'prata', serif;
 }
 .left, .logo, .right {
-    background-color: #201B19;
     height: 20px;
     display: flex;
     justify-content: space-around;
@@ -55,46 +57,43 @@
     color: #76C1B8;
     
   }
-  #liLogo, #contactLogo {
-      justify-content: center;
-      align-items: flex-end;
-  }
-  footer h1 {
+  h1 {
+      display: flex;
     font-family: Libre Baskerville;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: start;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 74px;
     color: #76C1B8;
   }
-  #copyright h4 {
+  h4 {
+    display: flex;
+    justify-content: center;
     font-family: 'prata', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
     line-height: 60px;
     color: #BFAE9D;
+    align-items: baseline;
 
   }
   .content {
       padding: 40px;
   }
   footer {
-      display: flex;
-      align-items: center;
+      display: inline-block;
+      justify-content: center;
       background-color: #201B19;
+      width: 100%;
   }
   .footLogo {
-     
+    display: flex;
       justify-content: center;
+      justify-content: space-evenly;
+      align-items: row;
   }
-  #liLogo {
-      float: left;
-  }
-  #contactLogo {
-      float: right;
-  }
-  #copyright {
-      align-items: flex-end;
-  }
+
+ 
